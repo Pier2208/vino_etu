@@ -3,7 +3,8 @@
 foreach ($data as $cle => $bouteille) {
  
     ?>
-    <div class="bouteille" data-quantite="">
+    <!-- ajout de la quantité de bouteille data-quantite -->
+    <div class="bouteille" data-quantite="<?= $bouteille['quantite'] ?>">
         <div class="img">
             
             <img src="https:<?php echo $bouteille['image'] ?>">

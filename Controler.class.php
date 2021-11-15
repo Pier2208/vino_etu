@@ -34,7 +34,7 @@ class Controler
 				case 'ajouterBouteilleCellier':
 					$this->ajouterBouteilleCellier();
 					break;
-				case 'boireBouteilleCellier':
+				case 'boireBouteilleCellier': // au clic du bouton boire
 					$this->boireBouteilleCellier();
 					break;
 				default:
